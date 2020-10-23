@@ -1,0 +1,11 @@
+micronaut:
+  application:
+    name: micronautRefcntBug
+  server:
+    port: 6004
+  http:
+    client:
+      pool:
+        enabled: true
+        max-connections: 10
+        acquire-timeout: 3s
